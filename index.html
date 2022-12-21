@@ -20,7 +20,7 @@
   <header>
     <nav class="navbar navbar-dark navbar-expand-lg bg-dark">
       <div class="container-fluid">
-        <img src="./img/fantasma.png" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
+        <a href="../Kai/index.html"><img src="./img/fantasma.png" alt="Logo" width="30" height="24" class="d-inline-block align-text-top"></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01"
           aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -29,13 +29,25 @@
           <a class="navbar-brand" href="#">Hidden brand</a>
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
+              <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="./books.html">Books</a>
+              <li class="nav-item dropdown">
+                <a class="nav-link active dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Become a member</a>
+                <ul class="dropdown-menu bg-dark">
+                  <li><a class="dropdown-item text-danger" href="./register.html">Register</a></li>
+                  <li><a class="dropdown-item text-danger" href="./login.html">Login</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item text-danger" href="#">Something else here</a></li>
+                </ul>
+              </li>
+      
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="./games.htmls">Games</a>
+              <a class="nav-link active" href="./books.html">Books</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="./games.htmls">Games</a>
             </li>
             <li class="nav-item">
               <a class="nav-link disabled">Disabled</a>
@@ -95,16 +107,27 @@
     </article>
 
     <article>
-      <div>
-
+      <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+        <div class="btn-group me-2" role="group" aria-label="First group">
+          <button type="button" class="btn btn-primary">1</button>
+          <button type="button" class="btn btn-primary">2</button>
+          <button type="button" class="btn btn-primary">3</button>
+          <button type="button" class="btn btn-primary">4</button>
+        </div>
+        <div class="btn-group me-2" role="group" aria-label="Second group">
+          <button type="button" class="btn btn-secondary">5</button>
+          <button type="button" class="btn btn-secondary">6</button>
+          <button type="button" class="btn btn-secondary">7</button>
+        </div>
+        <div class="btn-group" role="group" aria-label="Third group">
+          <button type="button" class="btn btn-info">8</button>
+        </div>
       </div>
 
-      <div>
-
-      </div>
-
-      <div>
-
+      <div class="btn-group" role="group" aria-label="Basic mixed styles example">
+        <button type="button" class="btn btn-danger">Left</button>
+        <button type="button" class="btn btn-warning">Middle</button>
+        <button type="button" class="btn btn-success">Right</button>
       </div>
     </article>
   </section>
