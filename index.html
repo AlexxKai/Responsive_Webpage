@@ -20,7 +20,8 @@
   <header>
     <nav class="navbar navbar-dark navbar-expand-lg bg-dark">
       <div class="container-fluid">
-        <a href="https://alexxkai.github.io/Kai/index.html"><img src="./img/fantasma.png" alt="Logo" width="30" height="24" class="d-inline-block align-text-top"></a>
+        <a href="https://alexxkai.github.io/Kai/index.html"><img src="./img/fantasma.png" alt="Logo" width="30"
+            height="24" class="d-inline-block align-text-top"></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01"
           aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -29,19 +30,21 @@
           <a class="navbar-brand" href="./index.html">Home</a>
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="./characters.html">Principal characters</a>
+            <li class="nav-item dropdown">
+              <a class="nav-link active dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">The school</a>
+              <ul class="dropdown-menu bg-dark">
+                <li><a class="dropdown-item text-danger" href="./houses.html">Houses</a></li>
+                <li><a class="dropdown-item text-danger" href="#">Other schools</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item text-danger" href="#">Something else here</a></li>
+              </ul>
+            </li>
             </li>
             <li class="nav-item">
-              <li class="nav-item dropdown">
-                <a class="nav-link active dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Become a member</a>
-                <ul class="dropdown-menu bg-dark">
-                  <li><a class="dropdown-item text-danger" href="./register.html">Register</a></li>
-                  <li><a class="dropdown-item text-danger" href="./login.html">Login</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item text-danger" href="#">Something else here</a></li>
-                </ul>
-              </li>
-      
+              <a class="nav-link active" aria-current="page" href="./characters.html">Principal characters</a>
             </li>
             <li class="nav-item">
               <a class="nav-link active" href="./books.html">Books</a>
@@ -50,13 +53,9 @@
               <a class="nav-link active" href="./games.html">Games</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" href="./houses.html">Houses</a>
+              <a class="nav-link active" href="#">xxx</a>
             </li>
           </ul>
-          <form class="d-flex" role="search">
-            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success" type="submit">Search</button>
-          </form>
         </div>
       </div>
     </nav>
@@ -120,11 +119,13 @@
           <button type="button" class="btn btn-secondary">5</button>
         </div>
       </div>
-
+    </article>
+    <article>
       <div class="btn-group" role="group" aria-label="Basic mixed styles example">
-        <button type="button" class="btn btn-danger">Left</button>
-        <button type="button" class="btn btn-warning">Middle</button>
-        <button type="button" class="btn btn-success">Right</button>
+        <button type="button" class="btn btn-danger">Gryffindor</button>
+        <button type="button" class="btn btn-warning">Ravenclaw</button>
+        <button type="button" class="btn btn-success">Slytherin</button>
+        <button type="button" class="btn btn-primary">Hufflepuff</button>
       </div>
     </article>
   </section>
